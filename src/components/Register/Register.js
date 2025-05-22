@@ -102,6 +102,10 @@ class Register extends React.Component {
 								value="Register"
 							/>
 						</div>
+
+						<div>
+							<p className="register-legend">Note: You need a mininum of any 6 characters for your password.</p>
+						</div>
 					</div>
 				</main>
 			</article>
