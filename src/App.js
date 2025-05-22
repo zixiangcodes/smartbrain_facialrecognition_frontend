@@ -21,7 +21,7 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import './App.css';
 
 // Dynamically adjusts which port or link the backend URL is coming from
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:3000';
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 // const app = new Clarifai.App({
 //   apiKey: '9465cf85f14b46bc90e329eb6ef9546a'

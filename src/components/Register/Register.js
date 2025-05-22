@@ -2,7 +2,7 @@ import React from 'react';
 import './Register.css';
 
 // Add this line at the top of your file, after the imports
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:3000';
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 class Register extends React.Component {
 	constructor(props) {
