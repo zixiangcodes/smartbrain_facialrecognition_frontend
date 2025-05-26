@@ -64,7 +64,7 @@ class Register extends React.Component {
 				<main className="register-main">
 					<div className="register-content">
 						<fieldset id="sign_up" className="register-fieldset">
-							<legend className="register-legend">Register</legend>
+							<legend className="register-legend">[ REGISTRATION ]</legend>
 							{this.state.error && <div className="error-message">{this.state.error}</div>}
 							<div className="input-group">
 								<label htmlFor="name">Name</label>

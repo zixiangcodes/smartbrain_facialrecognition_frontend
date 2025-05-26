@@ -1,10 +1,19 @@
 .logo-container {
-	margin: 2rem;
-	margin-top: 0;
+	/* margin: 2rem; */
+	margin-top: 0px;
+	justify-content: center;
+	/* horizontal centering */
+	align-items: center;
+	/* vertical centering */
+	/* full viewport height */
+	position: relative;
+	top: 50px;
+	/* Moves the element 50px down from its normal position */
 }
 
 .tilt-component {
-	margin-left: -200px;
+	/* margin-left: -200px; */
+	margin-left: 500px;
 	margin-top: -50px;
 	/* to move / adjust the logo */
 	height: 100px;

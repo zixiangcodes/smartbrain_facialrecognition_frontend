@@ -1,9 +1,10 @@
 .navigation {
-    width: 96%;
+    width: 90.5%;
     /* to move the sign in | registration nav-bar */
     display: flex;
     justify-content: flex-end;
     /* margin-right: 500px; */
+    margin-top: 10px;
 }
 
 .nav-link {
@@ -13,8 +14,197 @@
     cursor: pointer;
     color: black;
     transition: opacity 0.3s ease;
+    font-weight: bold;
 }
 
 .nav-link:hover {
     opacity: 0.7;
+}
+
+/* For mobile devices */
+/* WIDTH */
+/* For screens 800px and below */
+@media (max-width: 800px) {
+
+    .navigation {
+        width: 89%;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+}
+
+/* For screens 600px and below */
+@media (max-width: 600px) {
+
+    .navigation {
+        width: 90.5%;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+}
+
+/* For screens 480px and below */
+@media (max-width: 480px) {
+
+    .navigation {
+        width: 90.5%;
+    }
+
+    .nav-link {
+        font-size: 1.40rem;
+        font-weight: bold;
+    }
+
+
+}
+
+/* For screens 435px and below */
+@media (max-width: 435px) {
+
+    .navigation {
+        width: 90.5%;
+    }
+
+    .nav-link {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+
+}
+
+/* For screens 390px and below */
+@media (max-width: 390px) {
+
+    .navigation {
+        width: 91.5%;
+    }
+
+    .nav-link {
+        font-size: 1.15rem;
+        font-weight: bold;
+    }
+
+
+}
+
+/* For screens 360px and below */
+@media (max-width: 360px) {
+
+    .navigation {
+        width: 90.5%;
+    }
+
+    .nav-link {
+        font-size: 1.10rem;
+        font-weight: bold;
+    }
+
+}
+
+/* HEIGHT */
+/* For screens 850px and below */
+
+@media (max-height: 850px) {
+
+    .navigation {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-height: 800px) {
+
+    .navigation {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-height: 750px) {
+
+    .navigation {
+        margin-bottom: 80px;
+    }
+
+}
+
+@media (max-height: 700px) {
+
+    .navigation {
+        margin-bottom: 110px;
+    }
+
+}
+
+@media (max-height: 650px) {
+
+    .navigation {
+        margin-bottom: 140px;
+    }
+
+}
+
+@media (max-height: 600px) {
+
+    .navigation {
+        margin-bottom: 170px;
+    }
+
+}
+
+@media (max-height: 550px) {
+
+    .navigation {
+        margin-bottom: 200px;
+    }
+
+}
+
+@media (max-height: 500px) {
+
+    .navigation {
+        margin-bottom: 230px;
+    }
+
+}
+
+@media (max-height: 450px) {
+
+    .navigation {
+        margin-bottom: 260px;
+    }
+
+}
+
+@media (max-height: 400px) {
+
+    .navigation {
+        margin-bottom: 290px;
+    }
+
+}
+
+@media (max-height: 350px) {
+
+    .navigation {
+        margin-bottom: 320px;
+    }
+
+}
+
+@media (max-height: 300px) {
+
+    .navigation {
+        margin-bottom: 350px;
+    }
+
 }

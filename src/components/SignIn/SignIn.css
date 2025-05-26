@@ -113,18 +113,105 @@
     color: #fff;
 }
 
-.register-link {
-    margin-top: 1rem;
+.new-account-button-container {
+    margin-top: 1.75rem;
+    font-size: 20px;
 }
 
-.register-link p {
-    font-size: 25px;
-    color: #000;
-    text-decoration: none;
+.new-account-button {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 20px;
     cursor: pointer;
-    transition: opacity 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-.register-link p:hover {
-    opacity: 0.7;
+.new-account-button:hover {
+    transform: scale(1.05);
+}
+
+/* For mobile devices */
+/* WIDTH */
+/* For screens 600px and below */
+@media (max-width: 600px) {
+
+    .signin-main {
+        margin-top: 0px;
+    }
+
+    .signin-form legend {
+        font-size: 25px;
+    }
+
+    .form-group {
+        margin-top: 1rem;
+        margin-right: 15px;
+        /* adjust the right margin */
+    }
+
+    .form-group label {
+        font-size: 25px;
+    }
+
+    .form-group input {
+        font-size: 20px;
+    }
+
+}
+
+/* For screens 360px and below */
+@media (max-width: 480px) {
+
+    .signin-main {
+        margin-top: 50px;
+        /* width: 70%; */
+        /* padding: 0; */
+    }
+
+    .signin-form legend {
+        font-size: 23px;
+    }
+
+    .form-group {
+        margin-top: 20px;
+        /* adjust the right margin */
+    }
+
+    .form-group label {
+        font-size: 22px;
+    }
+
+    .form-group input {
+        font-size: 20px;
+    }
+
+
+}
+
+/* For screens 360px and below */
+@media (max-width: 360px) {
+
+    .signin-main {
+        margin-top: 50px;
+        /* width: 70%; */
+        /* padding: 0; */
+    }
+
+}
+
+/* HEIGHT */
+/* For screens 850px and below */
+
+@media (max-height: 850px) {
+
+    .n {
+        width: 90.5%;
+    }
+
+    .na {
+        font-size: 1.10rem;
+    }
+
 }

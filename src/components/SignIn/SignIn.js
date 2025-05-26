@@ -73,7 +73,7 @@ class SignIn extends React.Component {
 				<main className="signin-main">
 					<form className="signin-form" onSubmit={this.onSubmitSignIn}>
 						<fieldset id="sign_up">
-							<legend>Sign In</legend>
+							<legend>[ SIGN IN ]</legend>
 							<div className="form-group">
 								<label htmlFor="email-address">Email</label>
 								<input
@@ -105,8 +105,13 @@ class SignIn extends React.Component {
 						{this.state.error && (
 							<p className="error-message">{this.state.error}</p>
 						)}
-						<div className="register-link">
-							<p onClick={() => onRouteChange('register')}>Register</p>
+						<div className="new-account-button-container">
+							<input
+								onClick={() => onRouteChange('register')}
+								className="new-account-button"
+								type="submit"
+								value="Create New Account"
+							/>
 						</div>
 					</form>
 				</main>
