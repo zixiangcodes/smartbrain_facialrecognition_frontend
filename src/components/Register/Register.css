@@ -1,6 +1,6 @@
 .register-form {
     border-radius: 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
     /* margin: 2rem auto; */
     /* width: 100%; */
 
@@ -15,6 +15,15 @@
 .register-main {
     background-color: #f0f0f0;
     padding: 2rem;
+    top: 50px;
+    /* Moves the element 50px down from its normal position */
+    /* adjusts the margin and ensures its in the center*/
+    justify-content: center;
+    /* horizontal centering */
+    align-items: center;
+    /* vertical centering */
+    position: relative;
+    /* adjusts the size of the logo container */
 
 }
 
@@ -80,4 +89,101 @@
 
 .register-button:hover {
     transform: scale(1.05);
+}
+
+/* For mobile devices */
+/* WIDTH */
+/* For screens 600px and below */
+@media (max-width: 600px) {
+
+    .xxx {
+        margin-top: 0px;
+    }
+
+    .register-legend {
+        font-size: 20px;
+    }
+
+    .input-group label {
+        font-size: 20px;
+    }
+
+    .register-button {
+        font-size: 18px;
+    }
+
+}
+
+/* For screens 360px and below */
+@media (max-width: 480px) {
+
+    .xxx {
+        /* width: 70%; */
+        /* padding: 0; */
+        margin: 0;
+    }
+
+}
+
+/* For screens 360px and below */
+@media (max-width: 360px) {
+
+    .xxx {
+        margin: 0;
+        /* width: 70%; */
+        /* padding: 0; */
+    }
+
+    .register-legend {
+        font-size: 17px;
+    }
+
+    .input-group label {
+        font-size: 17px;
+    }
+
+    .register-button {
+        font-size: 17px;
+    }
+
+
+}
+
+/* For screens 305px and below */
+@media (max-width: 305px) {
+
+    .xxx {
+        margin: 0;
+        /* width: 70%; */
+        /* padding: 0; */
+    }
+
+    .register-legend {
+        font-size: 16px;
+    }
+
+    .input-group label {
+        font-size: 16px;
+    }
+
+    .register-button {
+        font-size: 16px;
+    }
+
+
+}
+
+/* HEIGHT */
+/* For screens 850px and below */
+
+@media (max-height: 850px) {
+
+    .xxx {
+        width: 90.5%;
+    }
+
+    .xxx {
+        font-size: 1.10rem;
+    }
+
 }

@@ -35,6 +35,11 @@ body {
   background-color: transparent;
 }
 
+.app-content-box {
+  padding: 0;
+  /* position: fixed; */
+}
+
 /* Auth container */
 .auth-container {
   display: flex;

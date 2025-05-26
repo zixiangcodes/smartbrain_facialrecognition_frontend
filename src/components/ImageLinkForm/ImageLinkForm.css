@@ -7,7 +7,9 @@
 
 .description {
 	font-size: 23px;
-	margin-bottom: 1.50rem;
+	margin-bottom: 1.00rem;
+	margin-left: 10px;
+	margin-right: 10px
 }
 
 .form-container {
@@ -44,7 +46,6 @@
 .submit-button {
 	width: 30%;
 	font-size: 1.25rem;
-	padding: 0.5rem 1rem;
 	background-color: #a463f2;
 	color: white;
 	border: none;
@@ -54,6 +55,88 @@
 
 .submit-button:hover {
 	transform: scale(1.05);
+}
+
+/* For mobile devices */
+/* WIDTH */
+/* For screens 600px and below */
+@media (max-width: 600px) {
+
+	.form {
+		height: 70%;
+		width: 70%;
+		margin-bottom: 20px;
+		/* width: 70%; */
+		/* padding: 0; */
+	}
+
+	.description {
+		font-size: 20px;
+	}
+
+	.input-field {
+		width: 70%;
+	}
+
+	.submit-button {
+		width: 25%;
+		font-size: 1.05rem;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	.form {
+		height: 70%;
+		width: 70%;
+		margin-bottom: 20px;
+		/* width: 70%; */
+		/* padding: 0; */
+	}
+
+	.description {
+		font-size: 18.5px;
+	}
+
+	.input-field {
+		width: 70%;
+	}
+
+	.submit-button {
+		width: 25%;
+		font-size: 1.05rem;
+		text-align: center;
+	}
+
+}
+
+/* For screens 360px and below */
+@media (max-width: 360px) {
+
+	.form {
+		height: 70%;
+		width: 70%;
+		margin-bottom: 20px;
+		/* width: 70%; */
+		/* padding: 0; */
+	}
+
+	.description {
+		font-size: 18px;
+	}
+
+	.input-field {
+		width: 70%;
+	}
+
+	.submit-button {
+		width: 25%;
+		font-size: 0.95rem;
+		text-align: center;
+	}
+
 }
 
 /* Dark mode styles */

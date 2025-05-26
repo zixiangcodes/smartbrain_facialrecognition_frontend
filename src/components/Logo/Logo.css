@@ -1,39 +1,47 @@
 .logo-container {
-	/* margin: 2rem; */
-	margin-top: 0px;
+	margin-top: 10px;
+	margin: 0 auto;
+	/* adjusts the margin and ensures its in the center*/
 	justify-content: center;
 	/* horizontal centering */
 	align-items: center;
 	/* vertical centering */
-	/* full viewport height */
 	position: relative;
-	top: 50px;
-	/* Moves the element 50px down from its normal position */
+	/* adjusts the size of the logo container */
+	height: 35%;
+	width: 35%;
 }
 
 .tilt-component {
 	/* margin-left: -200px; */
-	margin-left: 500px;
-	margin-top: -50px;
-	/* to move / adjust the logo */
-	height: 100px;
-	width: 100px;
+	/* margin-left: 500px; */
+	/* margin-top: -50px; */
+	/* to move or adjust the logo */
+	/* height: 100px; */
+	/* width: 100px; */
+	justify-content: center;
+	/* horizontal centering */
+	align-items: center;
+	/* vertical centering */
+	position: relative;
 	background: linear-gradient(100deg, #6495ED 0%, #00008B 100%);
 	border-radius: 0.25rem;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+/* adjusts the brain image inside the box */
 .tilt-inner {
-	padding: 0.5rem;
+	padding: 0.40rem;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+/* adjusts the size and position of the brain image in the box */
 .logo-image {
 	max-width: 90%;
 	max-height: 90%;
-	/* padding-top: 3px; */
+	padding-top: 12px;
 	margin-bottom: 14px;
 }

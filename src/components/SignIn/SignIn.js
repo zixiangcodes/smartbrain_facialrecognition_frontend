@@ -110,7 +110,7 @@ class SignIn extends React.Component {
 								onClick={() => onRouteChange('register')}
 								className="new-account-button"
 								type="submit"
-								value="Create New Account"
+								value="New Account"
 							/>
 						</div>
 					</form>

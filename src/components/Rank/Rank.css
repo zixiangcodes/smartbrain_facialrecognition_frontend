@@ -17,3 +17,56 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+/* For mobile devices */
+/* WIDTH */
+/* For screens 600px and below */
+@media (max-width: 600px) {
+
+    .rank-text {
+        font-size: 20px;
+        /* width: 70%; */
+        /* padding: 0; */
+    }
+
+    .rank-number {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+}
+
+/* For screens 450px and below */
+@media (max-width: 600px) {
+
+    .rank-text {
+        font-size: 19px;
+        /* width: 70%; */
+        /* padding: 0; */
+    }
+
+    .rank-number {
+        font-size: 19px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+}
+
+/* For screens 360px and below */
+@media (max-width: 360px) {
+
+    .rank-text {
+        font-size: 18px;
+        /* width: 70%; */
+        /* padding: 0; */
+    }
+
+    .rank-number {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+}

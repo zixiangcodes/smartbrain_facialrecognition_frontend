@@ -240,7 +240,7 @@ class App extends Component {
         <ParticlesBg className='particles' type="circle" bg={true} />
         <div className="app-content">
           {route === 'Home'
-            ? <div>
+            ? <div className="app-content-box">
               <Logo />
               <Rank name={this.state.user.name} entries={this.state.user.entries} />
               <ImageLinkForm

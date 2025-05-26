@@ -51,6 +51,21 @@
 
 }
 
+/* For screens 520px and below */
+@media (max-width: 520px) {
+
+    .navigation {
+        width: 90.5%;
+    }
+
+    .nav-link {
+        font-size: 1.40rem;
+        font-weight: bold;
+    }
+
+
+}
+
 /* For screens 480px and below */
 @media (max-width: 480px) {
 
@@ -97,10 +112,41 @@
 }
 
 /* For screens 360px and below */
+@media (max-width: 375px) {
+
+    .navigation {
+        width: 89.5%;
+        margin-left: 5px;
+    }
+
+    .nav-link {
+        font-size: 1.10rem;
+        font-weight: bold;
+    }
+
+}
+
+/* For screens 360px and below */
 @media (max-width: 360px) {
 
     .navigation {
         width: 90.5%;
+        margin-left: 5px;
+    }
+
+    .nav-link {
+        font-size: 1.10rem;
+        font-weight: bold;
+    }
+
+}
+
+/* For screens 360px and below */
+@media (max-width: 300px) {
+
+    .navigation {
+        width: 90.5%;
+        margin-left: 5px;
     }
 
     .nav-link {
