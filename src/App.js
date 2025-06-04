@@ -238,9 +238,9 @@ class App extends Component {
       <div className="App">
         <div className="info">
           {/* <hr className="line"></hr> */}
-          <p>By Zack Ng | Version 1.1 </p>
-          <p>Last Updated: 4 June 2025</p>
-          <p>Clarifai API | Neon PostgreSQL | React | Node.JS</p>
+          <p>By Zack Ng | Version 1.1 | Last Updated: 4 June 2025 </p>
+          <p>Clarifai API | Neon PostgreSQL | React | Node.JS | Render</p>
+          <p>Click <a href="https://www.example.com">'here'</a>to start the backend.</p>
           {/* <hr className="line"></hr> */}
         </div>
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
