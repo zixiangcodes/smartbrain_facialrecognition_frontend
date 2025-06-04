@@ -5,7 +5,7 @@ const ImageLinkForm = ({ input, onInputChange, onButtonSubmit }) => {
 	return (
 		<div className="image-link-form">
 			<p className="description">
-				<b>{'The Smart Brain Facial Recognition app detects a human face in your pictures. Copy & paste a URL that ends with a jpg. Give it a try! (limited to detect only 1 face per image).'}</b>
+				<b>{'The Smart Brain Facial Recognition app detects a human face in your pictures. Copy & paste a URL that ends with a picture file (eg: jpg or png). Give it a try! (limited to detect only 1 face per image).'}</b>
 			</p>
 			<div className="form-container">
 				<div className="form">
