@@ -6,7 +6,7 @@
 .image-container {
 	position: relative;
 	margin-top: 2rem;
-	margin-bottom: 75px;
+	margin-bottom: 100px;
 	display: inline-block;
 	/* Add this line */
 	border: 3px solid transparent;
@@ -15,18 +15,19 @@
 
 /* To adjust input image size. Adjust width and height as necessary */
 .input-image {
-	/* width: 350px; */
+	width: 350px;
 	height: auto;
 	/* display: block; */
 	/* Add this line */
 	margin-bottom: -5px;
 	/* To fix the thin opening inside the image box. Not sure what is causing it */
 
-	width: 70%;
+	/* To remove */
+	/* width: 70%; */
 	/* Takes up 100% of parent container width */
-	max-width: 100%;
+	/* max-width: 100%; */
 	/* Prevents image from exceeding its natural size */
-	height: auto;
+	/* height: auto; */
 	/* Maintains aspect ratio */
 }
 
@@ -38,8 +39,8 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	cursor: pointer;
-	width: 50%
-		/* test attempt */
+	/* width: 50% */
+	/* test attempt */
 }
 
 /* WIDTH */
