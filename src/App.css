@@ -86,10 +86,62 @@ body {
   background-color: #ff3333;
 }
 
+.info {
+  font-size: 17.5px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: bold;
+  /* margin-bottom: -1000px; */
+}
+
+/* not in use */
+.xline {
+  color: black;
+  background-color: black;
+  border: 1px solid black;
+}
+
 /* Media query for responsiveness */
 @media screen and (max-width: 1200px) {
   .app-content {
     width: 95%;
     margin-top: -20px;
+  }
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 615px) {
+  .info {
+    font-size: 16.5px;
+  }
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 545px) {
+  .info {
+    font-size: 15.5px;
+  }
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 500px) {
+  .info {
+    font-size: 14.5px;
+  }
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 460px) {
+  .info {
+    font-size: 13.0px;
+  }
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 400px) {
+  .info {
+    font-size: 12.5px;
   }
 }

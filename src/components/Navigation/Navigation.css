@@ -3,7 +3,7 @@
     /* to move the sign in | registration nav-bar */
     display: flex;
     justify-content: flex-end;
-    /* margin-right: 500px; */
+    margin-right: 500px;
     margin-top: 10px;
 }
 

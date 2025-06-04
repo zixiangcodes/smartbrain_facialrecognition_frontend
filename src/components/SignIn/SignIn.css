@@ -1,6 +1,6 @@
 .signin-container {
     border-radius: 0.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
     margin: 0 auto;
     width: 80%;
     max-width: 600px;
@@ -8,7 +8,7 @@
     position: relative;
     margin-top: -400px;
     /* top: -300px; */
-    /* To move the sign-in box. Minus makes it move upwards. Plus movies it downwards. */
+    /* To move the sign-in box. Minus makes it move upwards. Plus moves it downwards. */
 }
 
 .signin-main {

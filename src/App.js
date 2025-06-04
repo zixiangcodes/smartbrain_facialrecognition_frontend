@@ -236,6 +236,13 @@ class App extends Component {
     const { isSignedIn, imageUrl, route, box, input } = this.state;
     return (
       <div className="App">
+        <div className="info">
+          {/* <hr className="line"></hr> */}
+          <p>By Zack Ng | Version 1.1 </p>
+          <p>Last Updated: 4 June 2025</p>
+          <p>Clarifai API | Neon PostgreSQL | React | Node.JS</p>
+          {/* <hr className="line"></hr> */}
+        </div>
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         <ParticlesBg className='particles' type="circle" bg={true} />
         <div className="app-content">
