@@ -17,7 +17,8 @@
 .input-image {
 	width: 350px;
 	height: auto;
-	display: block;
+	/* display: block; */
+	/* causes image to run off and not be centered */
 	/* Add this line */
 	margin-bottom: -5px;
 	/* To fix the thin opening inside the image box. Not sure what is causing it */
