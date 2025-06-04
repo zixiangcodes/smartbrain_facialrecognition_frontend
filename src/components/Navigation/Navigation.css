@@ -177,7 +177,8 @@
 
     .navigation {
         /* width: 90.5%; */
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        /* 20px; */
     }
 
 }
@@ -187,7 +188,8 @@
 @media (max-height: 850px) {
 
     .navigation {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        /* 20px; */
     }
 
 }
@@ -195,7 +197,8 @@
 @media (max-height: 800px) {
 
     .navigation {
-        margin-bottom: 50px;
+        margin-bottom: 10px;
+        /* 50px; */
     }
 
 }
@@ -203,7 +206,8 @@
 @media (max-height: 750px) {
 
     .navigation {
-        margin-bottom: 80px;
+        margin-bottom: 10px;
+        /* 80px; */
     }
 
 }
@@ -211,7 +215,8 @@
 @media (max-height: 700px) {
 
     .navigation {
-        margin-bottom: 110px;
+        margin-bottom: 10px;
+        /* 110px; */
     }
 
 }
@@ -219,7 +224,8 @@
 @media (max-height: 650px) {
 
     .navigation {
-        margin-bottom: 140px;
+        margin-bottom: 10px;
+        /* 140px; */
     }
 
 }
@@ -227,7 +233,8 @@
 @media (max-height: 600px) {
 
     .navigation {
-        margin-bottom: 170px;
+        margin-bottom: 10px;
+        /* 170px; */
     }
 
 }
@@ -235,7 +242,8 @@
 @media (max-height: 550px) {
 
     .navigation {
-        margin-bottom: 200px;
+        margin-bottom: 10px;
+        /* 200px; */
     }
 
 }
@@ -243,7 +251,8 @@
 @media (max-height: 500px) {
 
     .navigation {
-        margin-bottom: 230px;
+        margin-bottom: 10px;
+        /* 230px; */
     }
 
 }
@@ -251,7 +260,8 @@
 @media (max-height: 450px) {
 
     .navigation {
-        margin-bottom: 260px;
+        margin-bottom: 10px;
+        /* 260px; */
     }
 
 }
@@ -259,7 +269,8 @@
 @media (max-height: 400px) {
 
     .navigation {
-        margin-bottom: 290px;
+        margin-bottom: 10px;
+        /* 290px; */
     }
 
 }
@@ -267,7 +278,8 @@
 @media (max-height: 350px) {
 
     .navigation {
-        margin-bottom: 320px;
+        margin-bottom: 10px;
+        /* 320px; */
     }
 
 }
@@ -275,7 +287,8 @@
 @media (max-height: 300px) {
 
     .navigation {
-        margin-bottom: 350px;
+        margin-bottom: 10px;
+        /* 350px; */
     }
 
 }
