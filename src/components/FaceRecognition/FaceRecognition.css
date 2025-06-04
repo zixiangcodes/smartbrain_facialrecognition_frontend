@@ -6,7 +6,7 @@
 .image-container {
 	position: relative;
 	margin-top: 2rem;
-	margin-bottom: 15px;
+	margin-bottom: 75px;
 	display: inline-block;
 	/* Add this line */
 	border: 3px solid transparent;
@@ -15,12 +15,19 @@
 
 /* To adjust input image size. Adjust width and height as necessary */
 .input-image {
-	width: 350px;
+	/* width: 350px; */
 	height: auto;
 	display: block;
 	/* Add this line */
 	margin-bottom: -5px;
 	/* To fix the thin opening inside the image box. Not sure what is causing it */
+
+	width: 100%;
+	/* Takes up 100% of parent container width */
+	max-width: 100%;
+	/* Prevents image from exceeding its natural size */
+	height: auto;
+	/* Maintains aspect ratio */
 }
 
 /* This is to make a box on a face in the picture */
@@ -32,6 +39,36 @@
 	justify-content: center;
 	cursor: pointer;
 }
+
+/* WIDTH */
+/* For screens 850px and below */
+@media (max-width: 850px) {
+
+	.input-image {
+		width: 80%;
+	}
+
+}
+
+/* For screens 600px and below */
+@media (max-width: 600px) {
+
+	.input-image {
+		width: 60%;
+	}
+
+}
+
+/* For screens 600px and below */
+@media (max-width: 400x) {
+
+	.input-image {
+		width: 40%;
+	}
+
+}
+
+
 
 /* Old usable version */
 /* .bounding-box {
