@@ -48,31 +48,29 @@
 /* For screens 850px and below */
 @media (max-width: 850px) {
 
-	.input-image {
+	/* .input-image {
 		width: 65%;
-	}
+	} */
 
 }
 
 /* For screens 600px and below */
 @media (max-width: 600px) {
 
-	.input-image {
+	/* .input-image {
 		width: 60%;
-	}
+	} */
 
 }
 
 /* For screens 600px and below */
 @media (max-width: 400x) {
 
-	.input-image {
+	/* .input-image {
 		width: 50%;
-	}
+	} */
 
 }
-
-
 
 /* Old usable version */
 /* .bounding-box {
