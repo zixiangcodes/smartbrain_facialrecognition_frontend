@@ -17,12 +17,12 @@
 .input-image {
 	/* width: 350px; */
 	height: auto;
-	display: block;
+	/* display: block; */
 	/* Add this line */
 	margin-bottom: -5px;
 	/* To fix the thin opening inside the image box. Not sure what is causing it */
 
-	width: 100%;
+	width: 70%;
 	/* Takes up 100% of parent container width */
 	max-width: 100%;
 	/* Prevents image from exceeding its natural size */
@@ -45,7 +45,7 @@
 @media (max-width: 850px) {
 
 	.input-image {
-		width: 80%;
+		width: 65%;
 	}
 
 }
@@ -63,7 +63,7 @@
 @media (max-width: 400x) {
 
 	.input-image {
-		width: 40%;
+		width: 50%;
 	}
 
 }
