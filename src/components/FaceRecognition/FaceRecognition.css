@@ -38,6 +38,8 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	cursor: pointer;
+	width: 50%
+		/* test attempt */
 }
 
 /* WIDTH */
